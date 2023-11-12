@@ -1,9 +1,8 @@
-import React, { useContext } from 'react';
-import { AppContext } from '../App';
+import React from 'react';
 import './header.css';
 
 const Header = ({ toggleActive }) => {
-    const { library, bag } = useContext(AppContext);
+    
 
 
   return (
