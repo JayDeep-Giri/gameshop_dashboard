@@ -1,6 +1,5 @@
 import React from 'react';
 import GameCard from '../components/GameCard';
-import './myLibrary.css';
 
 const MyLibrary = ({ games, reference }) => {
   return (
