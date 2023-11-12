@@ -20,13 +20,7 @@ const navListData = [
         icon: 'bi-heart',
         active: false,
     },
-    {
-        _id: 4,
-        target: 'bag',
-        name: 'My Bag',
-        icon: 'bi-bag',
-        active: false,
-    },
+    
 ];
 
 export default navListData;
