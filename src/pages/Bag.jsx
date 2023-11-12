@@ -3,7 +3,7 @@ import ShopBagItem from '../components/ShopBagItem';
 import './bag.css';
 
 const Bag = ({ games, reference }) => {
-  
+  const [total, setTotal] = useState(0);
 
   const handleTotalPayment = () =>{
     return games
