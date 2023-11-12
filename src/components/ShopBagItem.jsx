@@ -1,9 +1,8 @@
-import React, { useContext } from 'react';
-import { AppContext } from '../App';
+import React from 'react';
 import './shopBagItem.css';
 
 const ShopBagItem = ({ game, index }) => {
-    const {bag, setBag} = useContext(AppContext);
+   
 
     const handleRemoveFromBag=()=>{
         setBag(bag.filter(item=>item._id !== game._id));
