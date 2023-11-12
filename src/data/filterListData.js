@@ -24,7 +24,11 @@ const filterListData = [
         name: 'Racing',
         active: false,
     },
-   
+    {
+        _id: 6,
+        name: 'Fighting',
+        active: false,
+    },
 ];
 
 export default filterListData;

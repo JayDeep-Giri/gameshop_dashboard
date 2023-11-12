@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import navListData from '../data/navListData';
 import NavListItem from './NavListItem';
-
+import './sideMenu.css';
 
 const SideMenu = ({ active, sectionActive }) => {
   const [navData, setNavData] = useState(navListData);

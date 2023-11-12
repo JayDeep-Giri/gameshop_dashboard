@@ -3,7 +3,7 @@ import GameSlide from './GameSlide';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-//import Swiper 
+//import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
