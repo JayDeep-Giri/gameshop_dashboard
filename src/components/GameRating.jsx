@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './gameRating.css';
 
 const GameRating = ({ rating }) => {
-    const [stars, setStars] = useState([]);
+    
 
     const generateStars=()=> {
         let stars = []
