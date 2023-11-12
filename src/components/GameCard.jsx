@@ -16,7 +16,7 @@ const GameCard = ({ game }) => {
 
     const handleAddToBag = game => {
         if (bag.includes(game)) return;
-        setBag([...bag, game]);
+       
     };
 
     return (
