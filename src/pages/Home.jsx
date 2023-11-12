@@ -17,7 +17,7 @@ const Home = ({ games, reference }) => {
           </div>
           <div className="col-lg-6 d-flex justify-content-end align-items-center">
             <a href='#' className='viewMore'>
-              view more Games <i className='bi bi-arrow-right' />
+               <i className='bi bi-arrow-right' />
             </a>
           </div>
         </div>
