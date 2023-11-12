@@ -4,7 +4,7 @@ import filterListData from '../data/filterListData';
 import './categories.css';
 
 const Categories = ({ games, reference }) => {
-  const [data, setData] = useState(games);
+ 
 
 
   const [filters, setFilters] = useState(filterListData);
